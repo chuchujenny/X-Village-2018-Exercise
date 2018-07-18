@@ -1,0 +1,16 @@
+#ex1 如何從python創建新檔案
+f = open('Lesson05_ex.txt', 'w')
+date = input('輸入日期:')
+f.write('輸入日期:')
+f.write(date)
+f.write("\n")
+event = input('輸入事件:')
+f.write('輸入事件:')
+f.write(event)
+f.write("\n")
+description = input('輸入心得:')
+f.write('輸入心得:')
+f.write(description)
+f.write("\n")
+
+f.close()
